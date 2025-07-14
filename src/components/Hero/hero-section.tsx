@@ -25,21 +25,28 @@ function HeroSection() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
           <button className="bg-white text-primary-blue font-semibold py-4 px-8 rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-large text-lg">
-            Get Early Access
+            Join Waitlist
           </button>
           <button className="border-2 border-white/30 text-white font-semibold py-4 px-8 rounded-xl hover:bg-white/10 transition-all duration-300 text-lg">
             Watch Demo
           </button>
         </div>
 
+        <div className="mb-6 text-white/80 text-sm">
+          <span className="font-semibold text-yellow-300">
+            Early Access Special:
+          </span>{" "}
+          Get 50% off when you join the waitlist
+        </div>
+
         <div className="flex items-center justify-center gap-6 text-white/80 text-sm">
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 bg-success-green rounded-full"></span>
-            Free during beta
+            Early access pricing
           </div>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 bg-success-green rounded-full"></span>
-            No credit card required
+            Premium productivity tools
           </div>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 bg-success-green rounded-full"></span>

@@ -228,7 +228,7 @@ function MockupSection() {
 
             <div className="pt-4">
               <button className="bg-primary-blue text-white font-semibold py-3 px-6 rounded-xl hover:bg-dark-blue transition-all duration-300 shadow-soft">
-                Try the Demo
+                Join Waitlist
               </button>
             </div>
           </div>
