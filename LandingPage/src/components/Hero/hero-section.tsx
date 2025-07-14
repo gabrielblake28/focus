@@ -1,0 +1,54 @@
+import React from "react";
+
+function HeroSection() {
+  return (
+    <section className="bg-gradient-primary text-white py-24 px-4">
+      <div className="max-w-4xl mx-auto text-center">
+        <div className="mb-6">
+          <span className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm">
+            🚀 Join 500+ early users
+          </span>
+        </div>
+
+        <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+          Turn Screen Time Into
+          <span className="block bg-gradient-to-r from-yellow-300 to-orange-400 bg-clip-text text-transparent">
+            Productive Power
+          </span>
+        </h1>
+
+        <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto leading-relaxed">
+          Finally see where your time actually goes. Track productive apps,
+          measure focus sessions, and watch your productivity grow with
+          beautiful Apple Watch-style rings.
+        </p>
+
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+          <button className="bg-white text-primary-blue font-semibold py-4 px-8 rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-large text-lg">
+            Get Early Access
+          </button>
+          <button className="border-2 border-white/30 text-white font-semibold py-4 px-8 rounded-xl hover:bg-white/10 transition-all duration-300 text-lg">
+            Watch Demo
+          </button>
+        </div>
+
+        <div className="flex items-center justify-center gap-6 text-white/80 text-sm">
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 bg-success-green rounded-full"></span>
+            Free during beta
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 bg-success-green rounded-full"></span>
+            No credit card required
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 bg-success-green rounded-full"></span>
+            Works on Mac & Windows
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default HeroSection;
