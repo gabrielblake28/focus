@@ -82,20 +82,20 @@ function FeaturesSection() {
 
         <div className="text-center mt-16">
           <p className="text-neutral-gray mb-6">
-            Join thousands of professionals already using Focus
+            Designed for ambitious professionals
           </p>
           <div className="flex items-center justify-center gap-8 text-sm text-neutral-gray">
             <div className="flex items-center gap-2">
               <span className="text-2xl">⭐</span>
-              <span>4.8/5 rating</span>
+              <span>Premium quality</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-2xl">👥</span>
-              <span>500+ beta users</span>
+              <span>Professional-grade</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-2xl">🚀</span>
-              <span>2x productivity increase</span>
+              <span>2x productivity potential</span>
             </div>
           </div>
         </div>

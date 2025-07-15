@@ -6,7 +6,7 @@ function HeroSection() {
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-6">
           <span className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm">
-            🚀 Join 500+ early users
+            🚀 Join the Waitlist
           </span>
         </div>
 
@@ -26,9 +26,6 @@ function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
           <button className="bg-white text-primary-blue font-semibold py-4 px-8 rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-large text-lg">
             Join Waitlist
-          </button>
-          <button className="border-2 border-white/30 text-white font-semibold py-4 px-8 rounded-xl hover:bg-white/10 transition-all duration-300 text-lg">
-            Watch Demo
           </button>
         </div>
 

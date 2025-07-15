@@ -24,8 +24,9 @@ function CtaSection() {
         </h2>
 
         <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed">
-          Join 500+ professionals who've already transformed their work habits.
-          Secure your spot for exclusive early access pricing.
+          Be among the first to experience a revolutionary approach to
+          productivity tracking. Secure your spot for exclusive early access
+          pricing.
         </p>
 
         <div className="bg-white/20 rounded-xl p-4 mb-6 backdrop-blur-sm border border-white/30">
@@ -42,9 +43,6 @@ function CtaSection() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
           <button className="bg-white text-primary-blue font-bold py-4 px-8 rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-large text-lg w-full sm:w-auto">
             Join Waitlist
-          </button>
-          <button className="border-2 border-white/30 text-white font-semibold py-4 px-8 rounded-xl hover:bg-white/10 transition-all duration-300 text-lg w-full sm:w-auto">
-            Watch 2-Min Demo
           </button>
         </div>
 
@@ -75,10 +73,10 @@ function CtaSection() {
             </div>
             <div className="text-left">
               <div className="text-sm font-semibold">
-                Join 500+ professionals
+                Productivity Innovation
               </div>
               <div className="text-xs text-white/80">
-                Average 2.3x productivity increase
+                Designed for modern professionals
               </div>
             </div>
           </div>
@@ -86,13 +84,13 @@ function CtaSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
             <div className="text-center md:text-left">
               <div className="font-semibold mb-1">
-                "Finally, a productivity app that actually works!"
+                "This is exactly what I've been looking for!"
               </div>
               <div className="text-white/80">- Sarah, Product Manager</div>
             </div>
             <div className="text-center md:text-left">
               <div className="font-semibold mb-1">
-                "Worth every penny for the time I save."
+                "The approach to productivity tracking is brilliant."
               </div>
               <div className="text-white/80">- Michael, Software Developer</div>
             </div>
