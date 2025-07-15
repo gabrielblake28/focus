@@ -10,12 +10,18 @@ function HeroSection() {
           </span>
         </div>
 
-        <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+        <div className="mb-4">
+          <h1 className="text-2xl md:text-3xl font-bold text-white/90 mb-2">
+            Tempono
+          </h1>
+        </div>
+
+        <h2 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
           Turn Screen Time Into
           <span className="block bg-gradient-to-r from-yellow-300 to-orange-400 bg-clip-text text-transparent">
             Productive Power
           </span>
-        </h1>
+        </h2>
 
         <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto leading-relaxed">
           Finally see where your time actually goes. Track productive apps,
@@ -24,9 +30,9 @@ function HeroSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-          <a 
-            href="https://tally.so/r/w4l4VA" 
-            target="_blank" 
+          <a
+            href="https://tally.so/r/w4l4VA"
+            target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-primary-blue font-semibold py-4 px-8 rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-large text-lg"
           >
