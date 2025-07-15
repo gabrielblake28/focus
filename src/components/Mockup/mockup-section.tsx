@@ -1,5 +1,3 @@
-import React from "react";
-
 function MockupSection() {
   return (
     <section className="py-24 bg-white">

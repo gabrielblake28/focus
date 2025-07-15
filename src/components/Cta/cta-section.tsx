@@ -1,5 +1,3 @@
-import React from "react";
-
 function CtaSection() {
   return (
     <section className="py-24 bg-gradient-primary text-white relative overflow-hidden">

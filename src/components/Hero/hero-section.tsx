@@ -1,5 +1,3 @@
-import React from "react";
-
 function HeroSection() {
   return (
     <section className="bg-gradient-primary text-white py-24 px-4">

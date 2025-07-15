@@ -1,7 +1,5 @@
-import React from "react";
 import {
   HiOutlineChartBar,
-  HiOutlineLightBulb,
   HiOutlineShieldCheck,
   HiOutlineDevicePhoneMobile,
 } from "react-icons/hi2";
