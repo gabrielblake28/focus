@@ -7,9 +7,9 @@ import CtaSection from "./components/Cta/cta-section.tsx";
 function App() {
   return (
     <div className="min-h-screen">
-      <HeroSection />
-      <FeaturesSection />
+      {/* <HeroSection /> */}
       <MockupSection />
+      <FeaturesSection />
       <CtaSection />
     </div>
   );
