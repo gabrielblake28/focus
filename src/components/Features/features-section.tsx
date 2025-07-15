@@ -17,33 +17,6 @@ import {
 function FeaturesSection() {
   const features = [
     {
-      icon: HiOutlineChartBar,
-      title: "Smart App Tracking",
-      description:
-        "Automatically detect and categorize your productive apps. No manual timers or complex setup required.",
-      highlight: "Set & forget automation",
-      color: "text-blue-600",
-      bgColor: "bg-blue-50",
-    },
-    {
-      icon: LuTarget,
-      title: "Focus Sessions",
-      description:
-        "Block distractions and stay in the zone. Get gentle reminders and track your deep work streaks.",
-      highlight: "Proven focus techniques",
-      color: "text-red-600",
-      bgColor: "bg-red-50",
-    },
-    {
-      icon: LuTrendingUp,
-      title: "Beautiful Progress Rings",
-      description:
-        "Watch your productivity grow with stunning visualizations inspired by Apple Watch rings. Celebrate daily wins.",
-      highlight: "Motivating visuals",
-      color: "text-green-600",
-      bgColor: "bg-green-50",
-    },
-    {
       icon: LuTrophy,
       title: "Achievement System",
       description:
@@ -69,6 +42,33 @@ function FeaturesSection() {
       highlight: "Complete data privacy",
       color: "text-emerald-600",
       bgColor: "bg-emerald-50",
+    },
+    {
+      icon: HiOutlineChartBar,
+      title: "Smart App Tracking",
+      description:
+        "Automatically detect and categorize your productive apps. No manual timers or complex setup required.",
+      highlight: "Set & forget automation",
+      color: "text-blue-600",
+      bgColor: "bg-blue-50",
+    },
+    {
+      icon: LuTarget,
+      title: "Focus Sessions",
+      description:
+        "Block distractions and stay in the zone. Get gentle reminders and track your deep work streaks.",
+      highlight: "Proven focus techniques",
+      color: "text-red-600",
+      bgColor: "bg-red-50",
+    },
+    {
+      icon: LuTrendingUp,
+      title: "Beautiful Progress Rings",
+      description:
+        "Watch your productivity grow with stunning visualizations inspired by Apple Watch rings. Celebrate daily wins.",
+      highlight: "Motivating visuals",
+      color: "text-green-600",
+      bgColor: "bg-green-50",
     },
   ];
 

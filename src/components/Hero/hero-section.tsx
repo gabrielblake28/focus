@@ -24,9 +24,14 @@ function HeroSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-          <button className="bg-white text-primary-blue font-semibold py-4 px-8 rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-large text-lg">
+          <a 
+            href="https://tally.so/r/w4l4VA" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-white text-primary-blue font-semibold py-4 px-8 rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-large text-lg"
+          >
             Join Waitlist
-          </button>
+          </a>
         </div>
 
         <div className="mb-6 text-white/80 text-sm">

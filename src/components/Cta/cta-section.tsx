@@ -39,16 +39,21 @@ function CtaSection() {
             launch price
           </div>
           <div className="text-sm text-white/90">
-            <span className="font-bold text-yellow-300">
+            {/* <span className="font-bold text-yellow-300">
               Only 150 spots remaining this month
-            </span>
+            </span> */}
           </div>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-          <button className="bg-white text-primary-blue font-bold py-4 px-8 rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-large text-lg w-full sm:w-auto">
+          <a
+            href="https://tally.so/r/w4l4VA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-primary-blue font-bold py-4 px-8 rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-large text-lg w-full sm:w-auto"
+          >
             Join Waitlist
-          </button>
+          </a>
         </div>
 
         {/* Value propositions */}

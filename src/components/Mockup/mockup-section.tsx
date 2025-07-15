@@ -250,10 +250,21 @@ function MockupSection() {
               </div>
             </div>
 
-            <div className="pt-4">
-              <button className="bg-primary-blue text-white font-semibold py-3 px-6 rounded-xl hover:bg-dark-blue transition-all duration-300 shadow-soft">
-                Join Waitlist
-              </button>
+            <div className="pt-8 border-t border-gray-200 mt-8">
+              <div className="text-center">
+                <p className="text-sm text-neutral-gray mb-4">
+                  Ready to transform your productivity?
+                </p>
+
+                <a
+                  href="https://tally.so/r/w4l4VA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary-blue text-white font-semibold py-4 px-8 rounded-xl hover:bg-dark-blue transition-all duration-300 shadow-medium text-lg w-full sm:w-auto"
+                >
+                  Join Waitlist
+                </a>
+              </div>
             </div>
           </div>
         </div>
