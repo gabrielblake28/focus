@@ -60,39 +60,39 @@ function MockupSection() {
                       strokeWidth="10"
                     />
 
-                    {/* Productive Apps Ring (outer) */}
+                    {/* Productive Apps Ring (outer) - Apple Watch Red */}
                     <circle
                       cx="140"
                       cy="140"
                       r="120"
                       fill="none"
-                      stroke="#2563eb"
+                      stroke="#FF0040"
                       strokeWidth="14"
                       strokeDasharray="754"
                       strokeDashoffset="150"
                       strokeLinecap="round"
                     />
 
-                    {/* Focus Sessions Ring (middle) */}
+                    {/* Focus Sessions Ring (middle) - Apple Watch Green */}
                     <circle
                       cx="140"
                       cy="140"
                       r="95"
                       fill="none"
-                      stroke="#059669"
+                      stroke="#32D74B"
                       strokeWidth="12"
                       strokeDasharray="597"
                       strokeDashoffset="120"
                       strokeLinecap="round"
                     />
 
-                    {/* Deep Work Ring (inner) */}
+                    {/* Deep Work Ring (inner) - Apple Watch Blue */}
                     <circle
                       cx="140"
                       cy="140"
                       r="70"
                       fill="none"
-                      stroke="#7c3aed"
+                      stroke="#007AFF"
                       strokeWidth="10"
                       strokeDasharray="440"
                       strokeDashoffset="176"
@@ -117,7 +117,10 @@ function MockupSection() {
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                      <div className="w-4 h-4 bg-primary-blue rounded-full"></div>
+                      <div
+                        className="w-4 h-4 rounded-full"
+                        style={{ backgroundColor: "#FF0040" }}
+                      ></div>
                       <span className="text-sm font-medium text-dark-gray">
                         Productive Apps
                       </span>
@@ -128,7 +131,10 @@ function MockupSection() {
                   </div>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                      <div className="w-4 h-4 bg-accent-green rounded-full"></div>
+                      <div
+                        className="w-4 h-4 rounded-full"
+                        style={{ backgroundColor: "#32D74B" }}
+                      ></div>
                       <span className="text-sm font-medium text-dark-gray">
                         Focus Sessions
                       </span>
@@ -139,7 +145,10 @@ function MockupSection() {
                   </div>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                      <div className="w-4 h-4 bg-accent-purple rounded-full"></div>
+                      <div
+                        className="w-4 h-4 rounded-full"
+                        style={{ backgroundColor: "#007AFF" }}
+                      ></div>
                       <span className="text-sm font-medium text-dark-gray">
                         Deep Work
                       </span>
@@ -183,8 +192,13 @@ function MockupSection() {
 
             <div className="space-y-6">
               <div className="flex gap-4">
-                <div className="w-12 h-12 bg-primary-blue/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <span className="text-primary-blue text-xl">📊</span>
+                <div
+                  className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                  style={{ backgroundColor: "rgba(255, 0, 64, 0.1)" }}
+                >
+                  <span className="text-xl" style={{ color: "#FF0040" }}>
+                    📊
+                  </span>
                 </div>
                 <div>
                   <h4 className="font-bold text-dark-gray mb-1">
@@ -198,8 +212,13 @@ function MockupSection() {
               </div>
 
               <div className="flex gap-4">
-                <div className="w-12 h-12 bg-accent-green/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <span className="text-accent-green text-xl">🎯</span>
+                <div
+                  className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                  style={{ backgroundColor: "rgba(50, 215, 75, 0.1)" }}
+                >
+                  <span className="text-xl" style={{ color: "#32D74B" }}>
+                    🎯
+                  </span>
                 </div>
                 <div>
                   <h4 className="font-bold text-dark-gray mb-1">
@@ -212,8 +231,13 @@ function MockupSection() {
               </div>
 
               <div className="flex gap-4">
-                <div className="w-12 h-12 bg-accent-purple/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <span className="text-accent-purple text-xl">🧠</span>
+                <div
+                  className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                  style={{ backgroundColor: "rgba(0, 122, 255, 0.1)" }}
+                >
+                  <span className="text-xl" style={{ color: "#007AFF" }}>
+                    🧠
+                  </span>
                 </div>
                 <div>
                   <h4 className="font-bold text-dark-gray mb-1">
