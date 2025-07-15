@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="min-h-screen">
       {/* <HeroSection /> */}
-      <MockupSection />
       <FeaturesSection />
+      <MockupSection />
       <CtaSection />
     </div>
   );

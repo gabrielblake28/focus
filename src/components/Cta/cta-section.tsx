@@ -38,6 +38,11 @@ function CtaSection() {
             <span className="font-bold text-yellow-300">50% off</span> our
             launch price
           </div>
+          <div className="text-sm text-white/90">
+            <span className="font-bold text-yellow-300">
+              Only 150 spots remaining this month
+            </span>
+          </div>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
@@ -63,7 +68,7 @@ function CtaSection() {
         </div>
 
         {/* Social proof */}
-        <div className="bg-white/10 rounded-2xl p-6 backdrop-blur-sm border border-white/20">
+        {/* <div className="bg-white/10 rounded-2xl p-6 backdrop-blur-sm border border-white/20">
           <div className="flex items-center justify-center gap-4 mb-4">
             <div className="flex -space-x-2">
               <div className="w-8 h-8 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full border-2 border-white"></div>
@@ -95,15 +100,15 @@ function CtaSection() {
               <div className="text-white/80">- Michael, Software Developer</div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Urgency */}
-        <div className="mt-6 text-white/80 text-sm">
+        {/* <div className="mt-6 text-white/80 text-sm">
           <span className="font-semibold text-yellow-300">
             ⏰ Early access spots filling fast:
           </span>{" "}
           Only 150 spots remaining this month
-        </div>
+        </div> */}
       </div>
     </section>
   );
